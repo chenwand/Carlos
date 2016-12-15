@@ -7,7 +7,7 @@ var PassagemSchema = new mongoose.Schema({
   conexoes: Number,
   duracao: Number,
   preco: Number,
-  data: Date
+  data: String
 });
 
 module.exports = mongoose.model('Passagem', PassagemSchema);
